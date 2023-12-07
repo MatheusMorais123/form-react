@@ -62,10 +62,12 @@ const Formulario = () => {
 
       if (response.ok) {
         console.log('Envio bem-sucedido!');
+        alert("Enviado com sucesso");
         // Faça algo após o envio bem-sucedido, como redirecionar ou exibir uma mensagem
       } else {
         console.error('Erro ao enviar dados.');
       }
+      
     } catch (error) {
       console.error('Erro ao enviar dados:', error);
     }
